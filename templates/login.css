@@ -1,0 +1,40 @@
+.box{
+    color: red;
+    height: 15cm;
+    width: 9cm;
+    margin: auto;
+    margin-top: 2cm;
+    align-self: center;
+}
+input{
+    color: rgba(124, 113, 113, 0.164);
+    height: 1.5cm;
+    width: 8cm;
+    margin: auto;
+    margin-top: 0.5cm;
+    text-align: center;
+    border: 2px;
+    border-radius:10px;
+}
+.button{
+    background-color: rgb(37, 179, 37);
+    height: 1.2cm;
+    width: 6cm;
+    margin: auto;
+    margin-top: 0.5cm;
+    text-align: center;
+    border: 2px;
+    border-radius:20px;
+    color:black;
+}
+body{
+    background-image: url(WG.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+h3{
+    color: black;
+    font-size:xx-large;
+    font-style: oblique;
+    align-self:center;
+}

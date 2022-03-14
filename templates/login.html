@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<head>
+    <title>LOGIN VIHARA</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/login.css' %}">
+    <!--<link rel="stylesheet" href "{% static 'css/login.css' %}">-->
+</head>
+<body class="bod">
+    <center>
+    <h3>Login To VIHARA Portal</h3>
+    </center>
+<div class="box">
+    <form action="login" method="POST" style="text-align: center;">
+        {% csrf_token %}
+        
+        <input type="text" name = "username" placeholder="User name"><br>
+        <input type="password" name="password" placeholder="Password"><br>
+        <input type="submit" class="button">
+
+    </form>
+</div>
+
+    <div>
+        {% for messages in messages %}
+        <h3> {{ messages}}</h3>
+        {% endfor%}
+    </div>
+
+</body>
