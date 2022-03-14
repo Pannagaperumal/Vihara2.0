@@ -4,4 +4,4 @@ import accounts.views as acc
 def booking(request):
     if request=='POST':
         acc.login()
-        return render(request,'booking.html')
+    return render(request,'booking.html')

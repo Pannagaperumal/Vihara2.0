@@ -72,11 +72,11 @@
 			
 			<div class="row">
 				<div class="col-sm-4 col-xs-12">
-					<div id="gtco-logo"><a href="{% static 'index.html' %}">VIHARA<em>.</em></a></div>
+					<div id="gtco-logo"><a href="">VIHARA<em>.</em></a></div>
 				</div>
 				<div class="col-xs-8 text-right menu-1">
 					<ul>
-						<li><a href ="{% static 'destination.html' %}">Destination</a></li>
+						<li><a href ="booking/booking">Bookings</a></li>
 						<li class="has-dropdown">
 							<a href="#">Travel</a>
 							<ul class="dropdown">
@@ -193,7 +193,6 @@
 				{% for dest in dests %}
 				<div class="col-lg-4 col-md-4 col-sm-6">
 					<a href="{% static 'images/img_2.jpg' %}" class="fh5co-card-item image-popup">
-
 						<figure>
 							<!--<div class="overlay"><i class="ti-plus"></i></div>-->
 							<img src="{{ dest.img.url}}" alt="Image" class="img-responsive">
@@ -205,7 +204,8 @@
 						<div class="fh5co-text">
 							<h2>{{dest.name}}</h2>
 							<p>{{dest.desc}}</p>
-							<p><span class="btn btn-primary">Schedule a Trip</span></p>
+							<!--<p><span class="btn btn-primary">Schedule a Trip</span></p>-->
+							<!--<a href="booking/booking"></a>-->
 						</div>
 					</a>
 				</div>
