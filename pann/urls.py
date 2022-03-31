@@ -22,7 +22,6 @@ from pann.settings import MEDIA_ROOT
 
 urlpatterns = [
     path('', include('speed.urls')),
-
     path('admin/', admin.site.urls),
     path('accounts/',include('accounts.urls')),
     path('booking/',include('booking.urls'))

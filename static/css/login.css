@@ -27,8 +27,11 @@ input{
     border-radius:20px;
     color:black;
 }
-.bod{
-    background-image: url("../images/WG.jpg");
+#bg{
+    height: 10cm;
+    width: 15cm;
+    background-color: aqua;
+    background-image: url("/static/images/WG.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-color: rgb(14, 12, 11);
